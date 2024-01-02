@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Share Prompt
 
-## Getting Started
+Share Prompt is a web application that allows users to share their creative prompts and browse other users' prompts. Users can log in by Google account or GitHub account, create a post with a tag, view all posts and search them by username, tag, or prompt, update their posts later, and copy the prompt of any post to their clipboard.
 
-First, run the development server:
+## Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is built with the following technologies:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js: A React framework for building fast and scalable web applications.
+- Tailwind: A utility-first CSS framework for rapid UI development.
+- Next-Auth: A library for implementing authentication and authorization in Next.js applications.
+- TypeScript: A superset of JavaScript that adds static type checking and other features.
+- MongoDB: A document-based database for storing and querying data.
+- Mongoose: An object data modeling (ODM) library for MongoDB and Node.js.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run this project locally, you need to have Node.js, npm, and MongoDB installed on your machine. Then, follow these steps:
 
-## Learn More
+1. Clone this repository: `git clone https://github.com/ahmedmahmoud/share-prompt.git`
+2. Navigate to the project directory: `cd share-prompt`
+3. Install the dependencies: `npm install`
+4. Create a `.env` file in the root directory and add the following environment variables:
 
-To learn more about Next.js, take a look at the following resources:
+- NEXTAUTH_URL
+- NEXTAUTH_URL_INTERNAL
+- NEXTAUTH_SECRET
+- MONGODB_URI
+- AUTH0_ISSUER
+- AUTH0_CLIENT_ID
+- AUTH0_CLIENT_SECRET
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Start the development server: `npm start`
+6. Open your browser and go to `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Once you have the project running, you can use the following features:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Log in with Google or GitHub by clicking on the "Log in" button on the top right corner of the homepage.
+- Create a new post by clicking on the "create Post" button on the top right corner of the homepage. You can enter a prompt and a tag for your post.
+- View all posts by scrolling down the homepage. You can see the prompt, the tag, the username, and the user email.
+- Search posts by username, tag, or prompt by entering a keyword in the search bar. You can also filter posts by tag by clicking on the tag name below the prompts.
+- Update your posts by clicking on the "Edit" button on the bottom your post in the profile. You can modify the prompt and the tag of your post.
+- Delete your posts by clicking on the "Delete" button on the bottom your post in the profile. 
+- Copy the prompt of any post to your clipboard by clicking on the "Copy" icon on the top right corner of the post.
+- Log out by clicking on the "Log out" button on the top right corner of the homepage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Demo
+
+
+
+
+
