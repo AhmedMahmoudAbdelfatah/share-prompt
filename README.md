@@ -1,6 +1,6 @@
 # Share Prompt
 
-Share Prompt is a web application that allows users to share their creative prompts and browse other users' prompts. Users can log in by Google account or GitHub account, create a post with a tag, view all posts and search them by username, tag, or prompt, update their posts later, and copy the prompt of any post to their clipboard.
+Share Prompt is a web application that allows users to share their creative prompts and browse other users' prompts. Users can log in by Google account or GitHub account, create a post with a tag, view all posts and search them by username, tag, or prompt, update their posts later, and copy the prompt of any post to their clipboard. Feel free to visist the website (https://share-prompt-hhwypat1j-ahmed-mahmouds-projects.vercel.app/)
 
 ## Technologies
 
@@ -46,7 +46,11 @@ Once you have the project running, you can use the following features:
 - Copy the prompt of any post to your clipboard by clicking on the "Copy" icon on the top right corner of the post.
 - Log out by clicking on the "Log out" button on the top right corner of the homepage.
 
+
 ## Demo
+
+https://github.com/AhmedMahmoudAbdelfatah/share-prompt/assets/92806885/6168b03f-8062-4242-ac5e-0922ca298119
+
 
 
 
