@@ -78,13 +78,13 @@ const PostCard = (props: PostCardPropsType) => {
           className='mt-5 flex-center gap-4'
         >
           <p
-            className='font-inter text-sm green_gradient cursor-pointer'
+            className='font-inter text-sm green_gradient cursor-pointer select-none'
             onClick={() => props.handleEdit && props.handleEdit(props.post._id)}
           >
             Edit
           </p>
           <p
-            className='font-inter text-sm orange_gradient cursor-pointer'
+            className='font-inter text-sm orange_gradient cursor-pointer select-none'
             onClick={() => props.handleDelete && props.handleDelete(props.post._id)}
           >
             Delete
