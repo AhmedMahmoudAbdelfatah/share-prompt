@@ -8,7 +8,7 @@ export const useAllPosts = () => {
   useEffect(() => {
     const fetchPrompt = async () => {
       try {
-        const res = await fetch("/api/post", { cache: "no-cache" });
+        const res = await fetch("/api/post");
         const data = await res.json() as PostWithIdType[];
         setPosts(data);
       } catch (error) {
