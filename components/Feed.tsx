@@ -5,7 +5,7 @@ import Loading from './Loading';
 import { useFilteredPosts } from '@hooks/useFilteredPosts';
 import { useAllPosts } from '@hooks/useAllPosts';
 
-
+export const dynamic = 'force-dynamic';
 const Feed = () => {
   const [searchText, setSearchText] = useState("");
   const { posts, loading } = useAllPosts();
