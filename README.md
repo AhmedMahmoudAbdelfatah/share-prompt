@@ -1,6 +1,6 @@
 # Share Prompt
 
-Share Prompt is a web application that allows users to share their creative prompts and browse other users' prompts. Users can log in by Google account or GitHub account, create a post with a tag, view all posts and search them by username, tag, or prompt, update their posts later, and copy the prompt of any post to their clipboard. Feel free to visist the website (https://share-prompt-sepia.vercel.app)
+Share Prompt is a web application that allows users to share their creative prompts and browse other users' prompts. Users can log in by Google account or GitHub account, create a post with a tag, view all posts and search them by username, tag, or prompt, update their posts later, and copy the prompt of any post to their clipboard. Feel free to visit the website (https://share-prompt-sepia.vercel.app)
 
 ## Technologies
 
@@ -42,17 +42,10 @@ Once you have the project running, you can use the following features:
 - View all posts by scrolling down the homepage. You can see the prompt, the tag, the username, and the user email.
 - Search posts by username, tag, or prompt by entering a keyword in the search bar. You can also filter posts by tag by clicking on the tag name below the prompts.
 - Update your posts by clicking on the "Edit" button on the bottom your post in the profile. You can modify the prompt and the tag of your post.
-- Delete your posts by clicking on the "Delete" button on the bottom your post in the profile. 
+- Delete your posts by clicking on the "Delete" button on the bottom your post in the profile.
 - Copy the prompt of any post to your clipboard by clicking on the "Copy" icon on the top right corner of the post.
 - Log out by clicking on the "Log out" button on the top right corner of the homepage.
-
 
 ## Demo
 
 https://github.com/AhmedMahmoudAbdelfatah/share-prompt/assets/92806885/6168b03f-8062-4242-ac5e-0922ca298119
-
-
-
-
-
-
